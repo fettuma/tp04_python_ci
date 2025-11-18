@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
   schedule:
-    - cron: "*/2 * * * *"   # Exécution toutes les 2 minutes
+    - cron: ""   # Exécution toutes les 2 minutes
 
 
 jobs:
